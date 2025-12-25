@@ -116,6 +116,13 @@ body {
     font-weight: bold;
 }
 
+.sidebar-title:hover,
+.sidebar-content:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
 /* bottom part */
 .lower {
     display: flex;
@@ -179,4 +186,10 @@ button {
 
 .content {
     background-color: lightgray;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: rgb(115, 194, 218);
+    cursor: pointer;
 }
