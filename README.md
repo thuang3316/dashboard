@@ -1,1 +1,2 @@
-# dashboard
+# Dashboard
+A dashboard displaying projects.
