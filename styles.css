@@ -1,5 +1,15 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.woff2') format('woff2'),
+        url('Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     margin: 0;
+    font-family: 'Roboto';
 }
 
 .container {
@@ -18,11 +28,12 @@ body {
     color: white;
     align-items: start;
     padding: 1.5rem;
+    font-weight: bold;
 }
 
 .sidebar-icon {
     filter: brightness(0) invert(1);
-    height: 3.5rem;
+    height: 3rem;
     width: auto;
 }
 
@@ -34,7 +45,7 @@ body {
 }
 
 .sidebar-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 /* header */
