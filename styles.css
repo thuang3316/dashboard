@@ -141,10 +141,6 @@ body {
     gap: 0.5rem;
 }
 
-.greeting .small {
-    font-weight: bold;
-}
-
 .greeting .big {
     font-weight: bold;
     font-size: 2rem;
@@ -196,6 +192,7 @@ button:hover {
     background-color: rgb(231, 228, 228);
     display: grid;
     grid-template-columns: 3fr 1fr;
+    gap: 20px;
     padding: 35px 30px;
 }
 
@@ -210,11 +207,11 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: white;
-    border: 10px solid pink;
+    background-color: rgb(255, 255, 255);
+    border: 10px solid rgb(4, 158, 219);
     box-sizing: border-box;
     border-radius: 10px;
-    padding: 30px 30px;
+    padding: 20px 20px;
     gap: 7px;
 }
 
@@ -225,7 +222,7 @@ button:hover {
 }
 
 .project-content {
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 .project-icons {
@@ -237,4 +234,32 @@ button:hover {
 .project-icons .header-icon:hover {
     transform: scale(1.1);
     cursor: pointer;
+}
+
+/* announcements */
+
+.announcement-page {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 40%;
+    border-radius: 10px;
+    gap: 7px;
+    overflow: scroll;
+    background-color: rgb(255, 255, 255);
+}
+
+.announcement-page hr {
+  align-self: stretch;
+  width: 100%;
+}
+
+.announcement-title {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.announcement-text {
+    font-size: 12px;
+    font-weight: lighter;
 }
