@@ -184,12 +184,44 @@ button {
     height: 6rem;
 }
 
-.content {
-    background-color: lightgray;
-}
-
 button:hover {
     transform: scale(1.05);
     background-color: rgb(115, 194, 218);
     cursor: pointer;
+}
+
+/* content-styling */
+
+.content {
+    background-color: rgb(231, 228, 228);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 35px 30px;
+}
+
+.project-container {
+    display: grid;
+    height: 90%;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    gap: 30px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px 40px;
+    gap: 7px;
+}
+
+.project-title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 7px;
+}
+
+.project-icon {
+    
 }
